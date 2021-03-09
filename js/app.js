@@ -55,7 +55,7 @@ function danceQuestion(){
 }
 
 function rainierQuestion(){
-    let answer = prompt('Do I consider myself outdoorsyish?');
+    let answer = prompt('Have I summited Mt. Rainier?');
     let lowerCaseAnswer = answer.toLowerCase();
     if (lowerCaseAnswer === 'yes'){
         alert('Correct!')
@@ -70,3 +70,5 @@ getUserName();
 ageQuestion();
 kidsQuestion();
 hobbiesQuestion();
+danceQuestion();
+rainierQuestion();

@@ -13,3 +13,5 @@ My project that is awesome etc.
 ### Reflections and Comments
 - Consider including the answers to your daily journal and submission questions here
 - more stuff
+- howdy
+- 

@@ -1,0 +1,57 @@
+h1 {
+    color: rgb(0, 47, 0);
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+header {
+    color: rgb(0 ,47, 0);
+    font-size: 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+
+}
+body {
+    background-image: url('../img/rainier.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+h2 {
+    color: rgb(0, 47, 0);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(255, 255, 255, 0.3);
+    margin-right: 950px;
+    margin-left: 150px;
+    margin-top: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+p {
+    color: rgb(0, 47, 0);
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(255, 255, 255, 0.3);
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+}

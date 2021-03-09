@@ -1,6 +1,6 @@
-# LAB - DEMO
+# About ME
 
-## Demo Proj
+## Welcome to Hunter Britten's Page
 
 My project that is awesome etc.
 

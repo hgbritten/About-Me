@@ -5,7 +5,7 @@ function getUserName(){
     alert('Hello ' + userName + ' would you like to play a (guessing) game?');
     alert('Please answer with a yes or no.')
     document.write('<h2>' + 'Welcome ' + userName + '<h2>');
-    console.log('My name is ' + userName);
+    // console.log('My name is ' + userName);
 
     return userName;
 }
@@ -19,7 +19,7 @@ function ageQuestion(){
         alert('Wrong.')
     } else {
         alert('Answer not recognized.')
-    } console.log('My answer to age was ' + answer);
+    // } console.log('My answer to age was ' + answer);
 }
 
 function kidsQuestion(){
@@ -31,7 +31,7 @@ function kidsQuestion(){
         alert('Wrong.')
     } else {
         alert('Answer not recognized.')
-    } console.log('My answer to number of kids was ' + answer);
+    // } console.log('My answer to number of kids was ' + answer);
 }
 
 function hobbiesQuestion(){
@@ -43,7 +43,7 @@ function hobbiesQuestion(){
         alert('Wrong.')
     } else {
         alert('Answer not recognized.')
-    } console.log('My answer to the outdoors was ' + answer);
+    // } console.log('My answer to the outdoors was ' + answer);
 }
 
 function danceQuestion(){
@@ -55,7 +55,7 @@ function danceQuestion(){
         alert('Wrong.')
     } else {
         alert('Answer not recognized.')
-    } console.log('My answer to dance skills was ' + answer);
+    // } console.log('My answer to dance skills was ' + answer);
 }
 
 function rainierQuestion(){
@@ -67,7 +67,7 @@ function rainierQuestion(){
         alert('Wrong.')
     } else {
         alert('Answer not recognized.')
-    } console.log('My answer to the summit was ' + answer);
+    // } console.log('My answer to the summit was ' + answer);
 }
 
 getUserName();

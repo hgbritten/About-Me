@@ -3,20 +3,21 @@ h1 {
     font-size: xx-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.6);
     margin-left: 500px;
     margin-right: 500px;
     margin-top: 10px;
     border: solid;
     border-color: black;
     border-radius: 5px;
+    padding: 5px;
 }
 header {
     color: rgb(0 ,47, 0);
     font-size: 120px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.6);
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 10px;
@@ -35,23 +36,53 @@ h2 {
     color: rgb(0, 47, 0);
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: rgba(255, 255, 255, 0.3);
-    margin-right: 950px;
-    margin-left: 150px;
+    background: rgba(255, 255, 255, 0.6);
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top: 10px;
     border: solid;
     border-color: black;
     border-radius: 5px;
+    padding: 5px;
 }
 p {
     color: rgb(0, 47, 0);
     font-size: medium;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: rgba(255, 255, 255, 0.3);
-    margin-right: 100px;
-    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top: 10px;
+    padding: 5px;
     border: solid;
     border-color: black;
     border-radius: 5px;
+    
+}
+h3 {
+    color: rgb(0, 47, 0);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(255, 255, 255, 0.6);
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding: 5px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+ol {
+    color: rgb(0, 47, 0);
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(255, 255, 255, 0.6);
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding: 5px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px; 
+    list-style: decimal;
 }

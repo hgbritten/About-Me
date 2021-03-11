@@ -157,7 +157,7 @@ for(let i = 0; i < guesses2; i++){
             count += 1
             i = 7
             break;
-        } else if(userGuess !== correctGuess[k]){
+        } else if(userGuess !== correctGuess[k] && k === correctGuess.length - 1){
             alert('Not quite.')
             break;
     

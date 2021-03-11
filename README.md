@@ -5,6 +5,8 @@
 My project that is awesome etc.
 
 ### Author: Hunter/TOP GROUP
+Driver: Tim
+Navigator: Hunter
 
 ### Link and Resources
 - [submission PR](http://somewhere.com){:target=none}

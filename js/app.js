@@ -1,6 +1,7 @@
 'use strict'
 
 //  I am sorry I couldn't comment out the console logs I didn't know how to do it without breaking this again
+// no problem -Tim E
 
 let count = 0
 
@@ -86,6 +87,7 @@ let count = 0
  danceQuestion();
  rainierQuestion();
 
+ function colorQuestion() {
  let userAnswer = prompt('What is my favorite color? Purple or Green?');
  switch (userAnswer.toLowerCase()) {
      case ('purple'):
@@ -99,8 +101,10 @@ let count = 0
          alert('Answer not recognized.');
          console.log(userAnswer)
  }
+}
+colorQuestion();
 
-//  function numberGuessingGame(){
+ function numberGuessingGame(){
     //   followed along during day 4 lecture of 102 with Roger Huba
     //   set the correct number
     //   got random number gen from w3 schools
@@ -131,12 +135,11 @@ let count = 0
          } 
          
      }
-//  }
+ }
 
+numberGuessingGame();
 
-
-// numberGuessingGame();
-
+function numberArrayGame(){
 let correctGuess = [5,37,88,48];
 console.log(correctGuess);
 
@@ -163,8 +166,9 @@ for(let i = 0; i < guesses2; i++){
     
         }
     }
-}       
-
-document.write('<h3>' + 'The correct numbers in the array were ' + correctGuess + '<h3>')
+ }   
+document.write('<h3>' + 'The correct numbers in the array were ' + correctGuess + '<h3>')    
+}
+numberArrayGame();
 
 document.write('<h3>' + 'Your correct number of answers was ' + count + '<h3>')

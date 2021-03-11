@@ -137,37 +137,34 @@ let count = 0
 
 // numberGuessingGame();
 
-let correctGuess = ['5','37','48','88'];
+let correctGuess = [5,37,88,48];
 console.log(correctGuess);
 
 correctGuess.length;
 
 let guesses2 = 6;
 
-test: for(let i = 0; i < guesses2; i++){
-    let userGuess = prompt('Let\'s try this again. Can you guess a number from 1-100 that is in my array?');
+for(let i = 0; i < guesses2; i++){
+    let userGuess = parseInt(prompt('Let\'s try this again. Can you guess a number from 1-100 that is in my array?'));
     while(userGuess < 1 || userGuess > 100){
         userGuess = prompt('Outside of Range. Please enter a number between 1-100')
     }
-   
 
-        
-    // } else if(i === 5 && userGuess !== correctGuess){
-       console.log('last try');
-
-    
     for(let k = 0; k < correctGuess.length; k++){
+        console.log(typeof userGuess);
           if(userGuess === correctGuess[k]){
             alert('DING DING DING! YOU GOT IT RIGHT!');
             count += 1
-          break test;
-        } 
-    }
-
-    alert('Not quite!');
+            i = 7
+            break;
+        } else if(userGuess !== correctGuess[k]){
+            alert('Not quite.')
+            break;
     
+        }
+    }
 }       
+
 document.write('<h3>' + 'The correct numbers in the array were ' + correctGuess + '<h3>')
-console.log('Contains')
 
 document.write('<h3>' + 'Your correct number of answers was ' + count + '<h3>')

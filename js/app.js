@@ -79,12 +79,12 @@ let count = 0
      } console.log('My answer to the summit was ' + answer);
  }
 
- getUserName();
- ageQuestion();
- kidsQuestion();
- hobbiesQuestion();
- danceQuestion();
- rainierQuestion();
+//  getUserName();
+//  ageQuestion();
+//  kidsQuestion();
+//  hobbiesQuestion();
+//  danceQuestion();
+//  rainierQuestion();
 
  let userAnswer = prompt('What is my favorite color? Purple or Green?');
  switch (userAnswer.toLowerCase()) {
@@ -145,15 +145,17 @@ correctGuess.length;
 let guesses2 = 6;
 
 for(let i = 0; i < guesses2; i++){
-    let userGuess = parseInt(prompt('Let\'s try this again. Can you guess a number from 1-100 that is in my array?'));
+    let userResponse = prompt('Let\'s try this again. Can you guess a number from 1-100 that is in my array?');
+    let userGuess = parseInt(userResponse);
     while(userGuess < 1 || userGuess > 100){
-        userGuess = prompt('Outside of Range. Please enter a number between 1-100')
-    }
+        userGuess = parseInt(prompt('Outside of Range. Please enter a number between 1-100'));
+        console.log('user guess type', typeof(userGuess), userGuess);
+    } 
 
     for(let k = 0; k < correctGuess.length; k++){
         console.log(typeof userGuess);
           if(userGuess === correctGuess[k]){
-            alert('DING DING DING! YOU GOT IT RIGHT!');
+            alert('YES! YOU GOT IT RIGHT!');
             count += 1
             i = 7
             break;

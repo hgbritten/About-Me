@@ -79,12 +79,12 @@ let count = 0
      } console.log('My answer to the summit was ' + answer);
  }
 
-//  getUserName();
-//  ageQuestion();
-//  kidsQuestion();
-//  hobbiesQuestion();
-//  danceQuestion();
-//  rainierQuestion();
+ getUserName();
+ ageQuestion();
+ kidsQuestion();
+ hobbiesQuestion();
+ danceQuestion();
+ rainierQuestion();
 
  let userAnswer = prompt('What is my favorite color? Purple or Green?');
  switch (userAnswer.toLowerCase()) {
@@ -139,8 +139,6 @@ let count = 0
 
 let correctGuess = [5,37,88,48];
 console.log(correctGuess);
-
-correctGuess.length;
 
 let guesses2 = 6;
 

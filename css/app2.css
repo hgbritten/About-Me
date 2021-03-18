@@ -1,0 +1,52 @@
+.floaty img {
+    float: left;
+    padding: 15px;
+}
+
+.floaty:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+boxs 
+
+.flexy img {
+    flex: 1;
+    min-width: 0;
+    padding: 15px;
+}
+
+.flexy {
+    display: flex;
+}
+
+IN JS
+const kittenProfilesElem = document.getElementById('kittenProfiles');
+
+kittenProfilesElem.textContent = 'Whatever we want.';
+
+
+-- Created an element! --
+const articleElem = document.createElement('article');
+articleElem.textContext = "I am an article";
+
+//parentElem.appendChild(childElem)
+
+kittenProfilesElem.appendChild(articleElem);
+
+const nameHeaderElem = document.createElement('h2');
+nameHeaderElem.textContent = lela.name;
+
+const descriptionElement = document.createElement('p');
+descriptionElement.text = lela.description;
+articleElem.appendChild(descriptionElement);
+
+articleElem.appendChild(nameHeaderElem);
+
+
+cont imgElem = document.createElement('img');
+articleElem.appendChild(imgElem);
+imgElem.src = 'images/frankie.jpeg'
+
+Hard Code Seattle Data into an Object 

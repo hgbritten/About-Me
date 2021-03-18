@@ -1,10 +1,10 @@
 'use strict'
-
+let userName;
 
 let count = 0
 
 function getUserName() {
-    let userName = prompt('Welcome to my site! What is your name?');
+    userName = prompt('Welcome to my site! What is your name?');
     alert('Hello ' + userName + ' would you like to play a (guessing) game?');
     alert('Please answer with a yes or no.')
     document.write('<h2' > + 'Welcome ' + userName + '<h2>');
@@ -158,8 +158,12 @@ function numberArrayGame() {
             }
         }
     }
-    document.write('<h3>' + 'The correct numbers in the array were ' + correctGuess + '<h3>')
+    document.write('<h3>' + 'The correct numbers in the array were ' + correctGuess + '<h3>');
+
+
 }
 numberArrayGame();
 
 document.write('<h3>' + 'Your correct number of answers was ' + count + '<h3>');
+
+alert(userName + ', your correct number of answers was ' + count);
